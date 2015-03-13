@@ -12,27 +12,27 @@
 #
 # Author:
 #   danielmurphy
+# Modified by Eric Barnard
+#   - returns animated GIFs to increase awesomeness
 
 module.exports = (robot) ->
   robot.respond /swanson me$/i, (msg) ->
-    images = [
-      "http://i.imgur.com/kW0f7.jpg",
-      "http://i.imgur.com/vw9gZ.jpg",
-      "http://i.imgur.com/aV6ju.jpg",
-      "http://i.imgur.com/AQBJW.jpg",
-      "http://i.imgur.com/tKkRO.png",
-      "http://i.imgur.com/lkbGP.png",
-      "http://i.imgur.com/mx54e.jpg",
-      "http://i.imgur.com/LASrK.jpg",
-      "http://i.imgur.com/zvUBG.jpg",
-      "http://i.imgur.com/tjqca.jpg",
-      "http://i.imgur.com/q5CYv.jpg",
-      "http://i.imgur.com/HsoXm.jpg",
-      "http://i.imgur.com/6EGQm.jpg",
-      "http://i.imgur.com/DxpKu.jpg",
-      "http://i.imgur.com/h2c7L.jpg",
-      "http://i.imgur.com/jNyXL.jpg",
-      "http://i.imgur.com/K09cJ.jpg",
-      "http://i.imgur.com/mO0UE.jpg",
-      "http://i.imgur.com/9hhkx.jpg"]
+   images = [
+      "http://media.giphy.com/media/Be7iMvNVSPL7G/giphy.gif",
+      "http://media.giphy.com/media/A6zNIVa9ggyWc/giphy.gif",
+      "http://media.giphy.com/media/WET7HHGLaYec0/giphy.gif",
+      "http://media.giphy.com/media/L0LVMx7sn1Id2/giphy.gif",
+      "http://media.giphy.com/media/xkqTRFkgzKPF6/giphy.gif",
+      "http://media2.giphy.com/media/e3HeWt2zBu4AU/giphy.gif",
+      "http://media0.giphy.com/media/b9IUb8DEXM1JC/giphy.gif",
+      "http://media.giphy.com/media/IdmfEtnMWPzOg/giphy.gif",
+      "http://media.giphy.com/media/RaGBLqdHJOQ8w/giphy.gif",
+      "http://media3.giphy.com/media/t3QBygPkz1zJC/giphy.gif",
+      "http://media.giphy.com/media/uPWPoHdtpYkww/giphy.gif",
+      "http://media.giphy.com/media/A413bgMWn5ew/giphy.gif",
+      "http://media2.giphy.com/media/9HhbIaWdz4F1K/giphy.gif",
+      "http://media.giphy.com/media/HKx5p4APGBxi8/giphy.gif",
+      "http://media.giphy.com/media/a1ehUmSCgihr2/giphy.gif",
+      "http://media3.giphy.com/media/XBu2hy3y2X9Bu/giphy.gif",
+      "http://media1.giphy.com/media/FpuWitmVjjSE/giphy.gif"]
     msg.send msg.random images
