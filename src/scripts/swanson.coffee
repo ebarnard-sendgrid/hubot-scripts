@@ -34,5 +34,9 @@ module.exports = (robot) ->
       "http://media.giphy.com/media/HKx5p4APGBxi8/giphy.gif",
       "http://media.giphy.com/media/a1ehUmSCgihr2/giphy.gif",
       "http://media3.giphy.com/media/XBu2hy3y2X9Bu/giphy.gif",
+      "https://media.giphy.com/media/qZiUOutzxgfKM/giphy.gif",
+      "http://media.giphy.com/media/wGB3JIcR6yyIw/giphy.gif",
+      "http://27.media.tumblr.com/tumblr_m0mgytbSfc1qe2ha5o1_500.gif",
+      "http://s3-ec.buzzfed.com/static/2013-10/enhanced/webdr01/27/11/anigif_enhanced-buzz-20586-1382888933-26.gif",
       "http://media1.giphy.com/media/FpuWitmVjjSE/giphy.gif"]
     msg.send msg.random images
